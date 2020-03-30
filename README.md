@@ -8,6 +8,7 @@ O sistema terá acesso gratuito, porém limitado, e acesso ilimitado para assina
 
 ## Tecnologias usadas
 
+* [Nodejs](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com.br/)
 
 ## Desenvolvedores
