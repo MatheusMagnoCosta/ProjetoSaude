@@ -1,4 +1,4 @@
-# Projeto Saude
+# Projeto Saúde
 
 O projeto consistirá em uma plataforma de coleta, armazenamento e junção de notícias relacionadas à área de saúde tais como: doenças, novos tratamentos, pandemias, novos artigos científicos, dicas de prevenção. Além disso, o projeto também terá relatos fornecidos por médicos, enfermeiros e outros profissionais da saúde com os tratamentos e substâncias que utilizam e estão utilizando bem como a sua eficácia nos pacientes. Ressalte-se que o nome dos pacientes não será informado, para que seja preservada a sua intimidade; entretanto, os médicos, caso queiram, podem publicar seus nomes com o respectivo número de CRM para fins de divulgação ou contato. 
 
