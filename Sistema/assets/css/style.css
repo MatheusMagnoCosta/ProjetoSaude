@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(255,255,255);
+}
+h1{
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+}
+h2{
+  color: rgb(0,0,0);
+  font-size: 39px;
+  font-family: Poppins, sans-serif;
+  font-style: bold;
+}
+h3{
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+}
+h5,a{
+  color: rgb(0,0,0);
+}
+p{
+  color: rgb(0,0,0);
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+button{
+  color: rgb(255,255,255);
+  background-color: #0029ff;
+  font-family: Poppins, sans-serif;
+}
+#menu-banner{
+background-image: url(../img/healthcare-medical-science-background-with-icons-symbols-innovation-technology_120542-239.jpg);
+color: rgba(255,255,255,0.85);
+}
+#imagem1-home{
+  width: 306px;
+  padding: 13px;
+  background-color: transparent;
+}
+#imagem2-home{
+  background-color: transparent;
+}
+#bloco1{
+  padding-top: 70px;
+}
+footer{
+  background-color: rgb(255,255,255);
+}

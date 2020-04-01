@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - SistemaSaude</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
@@ -14,76 +15,108 @@
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
 </head>
 
-<body style="background-color: rgb(255,255,255);">
+<body>
+    <!-- INICIO MENU -->
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="#">SistemaSaude</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="blog-post-list.html">Blog</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">Sobre</a></li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
                 </ul>
-            </div><button class="btn btn-primary" type="button">Contato</button></div>
+            </div>
+            <button class="btn btn-primary" type="button">Contato</button>
+        </div>
     </nav>
+    <!-- FIM MENU -->
+    
     <main class="page landing-page">
-        <section class="clean-block clean-hero" style="background-image: url(assets/img/healthcare-medical-science-background-with-icons-symbols-innovation-technology_120542-239.jpg);color: rgba(255,255,255,0.85);">
+        <!-- INICIO BANNER -->
+        <section id="menu-banner"class="clean-block clean-hero">
             <div class="text">
-                <h2 style="color: rgb(0,0,0);font-size: 39px;font-family: Poppins, sans-serif;font-style: normal;">Uma simples solução<br>Para suas duvidas na medicina</h2>
-                <p style="color: rgb(0,0,0);font-family: Poppins, sans-serif;font-style: normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p><button class="btn btn-outline-light btn-lg" type="button" style="color: rgb(255,255,255);background-color: #0029ff;font-family: Poppins, sans-serif;">Saiba Mais</button></div>
+                <h2><b>Uma simples solução</b><br>Para suas duvidas na medicina</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, 
+                    dignissim nec auctor in, mattis vitae leo.</p>
+                <button class="btn btn-outline-light btn-lg" type="button">Saiba Mais</button>
+            </div>
         </section>
+        <!-- FIM BANNER -->
+        <!--INCIO VANTAGENS-->
         <section class="clean-block clean-info dark">
             <div class="container">
                 <div class="block-heading">
-                    <h1 style="font-family: Poppins, sans-serif;font-size: 36px;">Sistema Saúde</h1>
+                    <h1>Sistema Saúde</h1>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <h3 style="font-family: Poppins, sans-serif;">Sistema anti <br>fakenews</h3>
+                        <h3>Sistema anti <br>fakenews</h3>
                         <div class="getting-started-info">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consetetur sadipscing elit.<br>sed
-                                diam nonumy eirmod tempor invidunt ut labore et <br>dolore magna aliquyam erat, sed diam voluptua. vero</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, 
+                                consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing 
+                                elitLorem ipsum dolor sit amet, consetetur sadipscing elit.<br>sed
+                                diam nonumy eirmod tempor invidunt ut labore et <br>dolore magna aliquyam erat, 
+                                sed diam voluptua. vero</p>
                         </div>
                     </div>
-                    <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><img class="d-xl-flex" src="assets/img/Asset%203@2x-8.png" style="width: 306px;padding: 13px;opacity: 1;background-color: transparent;color: #eeeeee;"></div>
+                    <div class="col d-xl-flex justify-content-xl-center align-items-xl-center">
+                        <img id="imagem1-home"class="d-xl-flex" src="assets/img/Asset%203@2x-8.png">
+                    </div>
                 </div>
-                <div class="row align-items-center" style="padding-top: 70px;">
-                    <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><img src="assets/img/Asset%201@2x-8.png" style="background-color: transparent;"></div>
+                <div id="bloco1" class="row align-items-center">
+                    <div class="col d-xl-flex justify-content-xl-center align-items-xl-center">
+                        <img id="imagem2-home"src="assets/img/Asset%201@2x-8.png">
+                    </div>
                     <div class="col-md-6">
-                        <h3 class="text-right d-xl-flex justify-content-xl-end" style="font-family: Poppins, sans-serif;">Como isso pode<br>ajudar você?</h3>
+                        <h3 class="text-right d-xl-flex justify-content-xl-end">Como isso pode<br>ajudar você?</h3>
                         <div class="getting-started-info">
-                            <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consetetur sadipscing elit.<br>sed
-                                diam nonumy eirmod tempor invidunt ut labore et&nbsp;<br>dolore magna aliquyam erat, sed diam voluptua. vero</p>
+                            <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, 
+                                consectetur adipisicing elitLorem ipsum dolor sit amet, consetetur sadipscing elit.<br>sed
+                                diam nonumy eirmod tempor invidunt ut labore e<br>dolore magna aliquyam erat, 
+                                sed diam voluptua. vero</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="clean-block about-us" style="color: rgb(0,0,0);">
+        <!--FIM VANTAGENS-->
+        <!--INICIO ESPECIALISTAS-->
+        <section class="clean-block">
             <div class="container">
                 <div class="block-heading">
-                    <h1 style="font-size: 36px;font-family: Poppins, sans-serif;">O que os especialistas<br>falam sobre nós?</h1>
+                    <h1>O que os especialistas<br>falam sobre nós?</h1>
                 </div>
+                <!--primeiro-->
                 <div class="row justify-content-center">
                     <div class="col-sm-6 col-lg-4">
                         <div class="card clean-card text-center">
-                            <div class="card-body shadow info">
+                            <div class="card-body shadow">
                                 <h4 class="card-title">John Smith</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
+                    <!--segundo-->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card clean-card text-center">
-                            <div class="card-body shadow info">
+                            <div class="card-body shadow ">
                                 <h4 class="card-title">Robert Downturn</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
+                    <!--terceiro-->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card clean-card text-center">
-                            <div class="card-body shadow info">
+                            <div class="card-body shadow ">
                                 <h4 class="card-title">Ally Sanders</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
@@ -91,70 +124,95 @@
                     </div>
                 </div>
             </div>
+            <!--FIM ESPECIALISTAS-->
+
+            <!--INICIO FONTE-->
             <div class="block-heading" style="padding-top: 130px;">
-                <h1 style="font-size: 36px;font-family: Poppins, sans-serif;">Nossas fontes de<br>Informação</h1>
+                <h1>Nossas fontes de<br>Informação</h1>
             </div>
-            <div class="row justify-content-center" style="padding-top: 20px;">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="card d-xl-flex justify-content-xl-center align-items-xl-center clean-card text-center" style="background-color: transparent;">
-                        <div class="card-body border rounded-circle shadow d-xl-flex info" style="width: 200px;height: 200px;"></div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-lg-4 ">
+                    <div class="card border d-xl-flex justify-content-xl-center align-items-xl-center clean-card text-center">
+                        <div class="card-body border rounded-circle shadow" style="width: 200px;height: 200px;"></div>
                     </div>
                 </div>
+
                 <div class="col-sm-6 col-lg-4 d-xl-flex justify-content-xl-center">
                     <div class="card border rounded-circle clean-card text-center">
-                        <div class="card-body border rounded-circle shadow info" style="width: 200px;height: 200px;"></div>
+                        <div class="card-body border rounded-circle shadow" style="width: 200px;height: 200px;"></div>
                     </div>
                 </div>
+
                 <div class="col-sm-6 col-lg-4">
                     <div class="card d-xl-flex justify-content-xl-center align-items-xl-center clean-card text-center">
-                        <div class="card-body border rounded-circle shadow info" style="width: 200px;height: 200px;"></div>
+                        <div class="card-body border rounded-circle shadow" style="width: 200px;height: 200px;"></div>
                     </div>
-                </div>
+                </div> 
+                
             </div>
-            <section></section>
-            <section></section>
-            <div></div>
+            <!--FIM FONTE-->
         </section>
     </main>
+
+
+
+    <!----------------------------INICIO NÃO É MEU ESSE CODIGO---------------------------->
     <!-- Start: Contact Form Clean -->
     <div class="contact-clean">
         <form method="post">
-            <h2 class="text-center"><strong>Encontrou algum problema? </strong><br><strong>Nos ajude a melhorar</strong></h2>
+            <h2 class="text-center">
+                Encontrou algum problema?<br>Nos ajude a melhorar
+            </h2>
             <!-- Start: Success Example -->
-            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="name" placeholder="Name">
+            </div>
             <!-- End: Success Example -->
             <!-- Start: Error Example -->
-            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email">
-                <!-- Start: The Error Message --><small class="form-text text-danger">Please enter a correct email address.</small>
+            <div class="form-group">
+                <input class="form-control is-invalid" type="email" name="email" placeholder="Email">
+                <!-- Start: The Error Message --><small class="form-text text-danger">Insira um endereço de E-mail válido</small>
                 <!-- End: The Error Message -->
             </div>
             <!-- End: Error Example -->
-            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">Reportar&nbsp;</button></div>
+            <div class="form-group">
+                <textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Reportar</button>
+            </div>
         </form>
     </div>
     <!-- End: Contact Form Clean -->
-    <footer class="page-footer dark" style="background-color: rgb(255,255,255);">
-        <section></section>
-        <div></div>
+    <!----------------------------FIM NÃO É MEU ESSE CODIGO---------------------------->
+
+
+
+
+    <!--INICIO RODAPE-->
+    <footer class="page-footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h5 style="color: rgb(0,0,0);">Entre em contato</h5>
+                    <h5>Entre em contato</h5>
                     <p>+55(86) 97918-2782</p>
                     <p>dasygu@saude.com</p>
                 </div>
                 <div class="col-sm-3">
-                    <h5 style="color: rgb(0,0,0);">Sistema saúde</h5>
-                    <div></div>
-                    <div></div><a href="#" style="color: rgb(0,0,0);">Home</a><a class="d-block" href="#" style="color: rgb(0,0,0);">Sobre nós</a><a class="d-flex" href="#" style="color: rgb(0,0,0);">Blog</a></div>
+                    <h5>Sistema saúde</h5>
+                    <a class="d-block" href="#">Home</a>
+                    <a class="d-block" href="#">Sobre nós</a>
+                    <a class="d-block" href="#">Blog</a></div>
                 <div class="col-sm-3">
-                    <h5 style="color: rgb(0,0,0);">Redes sociais</h5><a href="#" style="color: rgb(0,0,0);">Facebook</a><a class="d-block" href="#" style="color: rgb(0,0,0);">Twitter</a><a class="d-flex" href="#" style="color: rgb(0,0,0);">Instagram</a><a class="d-flex" href="#" style="color: rgb(0,0,0);">Linkedin</a></div>
-                <div
-                    class="col-sm-3">
-                    <h5 style="color: rgb(0,0,0);">Endereço</h5>
-                    <p>+55(86) 97918-2782</p>
-                    <p>dasygu@saude.com</p>
+                    <h5>Redes sociais</h5>
+                    <a class="d-block" href="#">Facebook</a>
+                    <a class="d-block" href="#">Twitter</a>
+                    <a class="d-block" href="#">Instagram</a>
+                    <a class="d-block" href="#">Linkedin</a>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Endereço</h5>
+                    <a>+55(86) 97918-2782</a>
+                    <a>dasygu@saude.com</a>
             </div>
         </div>
         </div>
@@ -162,6 +220,7 @@
             <p>© 2020 Atchim! Saúuuuuuuude</p>
         </div>
     </footer>
+    <!--FIM RODAPE-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
