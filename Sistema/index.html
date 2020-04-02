@@ -5,17 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <title>Home - SistemaSaude</title>
         <!--CSS E FONTES-->>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-        <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-        <link rel="stylesheet" href="assets/css/smoothproducts.css">
+        <link rel="stylesheet" href="css/Contact-Form-Clean.css">
+
+        <link rel="stylesheet" href="css/style.css">
         <!--JAVASCRIPT-->>
-        <script src="assets/js/smoothproducts.min.js"></script>
-        <script src="assets/js/theme.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
@@ -51,7 +49,7 @@
                 <h2><b>Uma simples solução</b><br>Para suas duvidas na medicina</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, 
                     dignissim nec auctor in, mattis vitae leo.</p>
-                <button class="btn btn-outline-light btn-lg" type="button">Saiba Mais</button>
+                <button class="btn btn-outline-light btn-lg hvr-grow" type="button">Saiba Mais</button>
             </div>
         </section>
         <!-- FIM BANNER -->
@@ -73,12 +71,12 @@
                         </div>
                     </div>
                     <div class="col d-xl-flex justify-content-xl-center align-items-xl-center">
-                        <img id="imagem1-home"class="d-xl-flex" src="assets/img/Asset%203@2x-8.png">
+                        <img id="imagem1-home"class="d-xl-flex" src="img/Asset%203@2x-8.png">
                     </div>
                 </div>
                 <div id="bloco1" class="row align-items-center">
                     <div class="col d-xl-flex justify-content-xl-center align-items-xl-center">
-                        <img id="imagem2-home"src="assets/img/Asset%201@2x-8.png">
+                        <img id="imagem2-home"src="img/Asset%201@2x-8.png">
                     </div>
                     <div class="col-md-6">
                         <h3 class="text-right d-xl-flex justify-content-xl-end">Como isso pode<br>ajudar você?</h3>
@@ -136,7 +134,7 @@
             <div class="block-heading" style="padding-top: 130px;">
                 <h1>Nossas fontes de<br>Informação</h1>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="background-color: red;">
                 <div class="col-sm-6 col-lg-4 ">
                     <div class="card border d-xl-flex justify-content-xl-center align-items-xl-center clean-card text-center">
                         <div class="card-body border rounded-circle shadow" style="width: 200px;height: 200px;"></div>
@@ -158,6 +156,51 @@
             </div>
             <!--FIM FONTE-->
         </section>
+
+             <!--INICIO NOTICIAS-->
+        <section class="section-cards clean-block mb-5 pt-1">
+            <div class="container">
+                <div class="block-heading" style="padding-top: 30px;">
+                    <h1>Artigos recentes</h1>
+                </div>
+                <div class="row" id="all-cards">
+                    <!--ARTIGO 1-->
+                    <div class="card col-sm-6 col-md-3" >
+                        <img class="card-img-top hvr-grow" src="img/imagecap.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <!--ARTIGO 2-->
+                    <div class="card col-sm-6 col-md-3" >
+                        <img class="card-img-top hvr-grow" src="img/imagecap.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <!--ARTIGO 3-->
+                    <div class="card col-sm-6 col-md-3" >
+                        <img class="card-img-top hvr-grow" src="img/imagecap.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <!--ARTIGO 4-->
+                    <div class="card col-sm-6 col-md-3" >
+                        <img class="card-img-top hvr-grow" src="img/imagecap.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+       <!--FIM NOTICIAS-->
     </main>
 
 
