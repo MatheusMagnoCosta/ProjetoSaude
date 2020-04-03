@@ -210,11 +210,23 @@
             <h2 class="text-center">
                 Encontrou algum problema?<br>Nos ajude a melhorar
             </h2>
-            <!-- Start: Success Example -->
-            <div class="form-group">
-                <input class="form-control" type="text" name="name" placeholder="Name">
-                <input class="form-control" type="text" name="lastname" placeholder="LastName">
-            </div>
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
             <!-- End: Success Example -->
             <!-- Start: Error Example -->
             <div class="form-group">
