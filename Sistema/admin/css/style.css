@@ -4,7 +4,7 @@
 /* = All Pages Common CSS Styles 
 /*-------------------------------------------------*/
  body {
-     color: #73848e;
+     color:red;
      font-family: 'Poppins', sans-serif;
      margin: 0px;
      padding: 0px;
@@ -40,7 +40,7 @@
      margin-bottom: 0px;
 }
  p, a, li, span, label, tr, td, th, input {
-     color: #636363;
+     color: white;
      font-size: 15px;
      font-family: 'Poppins', sans-serif;
      font-weight: 400;
@@ -5159,7 +5159,7 @@
      text-align: center;
 }
  .tz-2-main-2 {
-     border: 1px solid #eaedef;
+     border: 1px solid black;
      padding: 20px;
 }
  .tz-2-main-com-table {
@@ -5533,7 +5533,7 @@
      font-weight: 500;
 }
  .tz-2-main-1 p {
-    color: #030202;
+    color: white;
     font-size: 14px;
     line-height: 24px;
 }
@@ -5664,7 +5664,7 @@
      background: #3b5998;
 }
  .soc-login ul li:nth-child(2) a {
-     background: #00aced;
+     background: #2a2b33;
 }
  .soc-login ul li:nth-child(3) a {
      background: #d34836;
@@ -5678,12 +5678,13 @@
  .tz-2-admin {
      width: 100%;
      margin: 0px;
+     background-color: #282828;
 }
  .tz-2-main-admin {
      width: 25%;
 }
  .sb1 {
-     background: #ffffff;
+     background: #282828;
      position: fixed;
      width: 100%;
      top: 0px;
@@ -5712,7 +5713,7 @@
      border-radius: 0px;
 }
  .sb2 {
-     background: #ffffff;
+     background: #494b4b;
      margin-top: 59px;
 }
  .sb2-1 {
@@ -5728,7 +5729,7 @@
      transition: all 0.5s ease;
 }
  .sb2-1 a {
-     color: #494b4b;
+     color: white;
      -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
      -o-transition: all 0.5s ease;
@@ -5747,7 +5748,7 @@
      position: relative;
      overflow: hidden;
      padding: 15px;
-     background: #ffffff;
+     background: #111a29;
 }
  .sb2-12 ul {
      padding: 10px 0px;
@@ -5777,6 +5778,7 @@
      margin-bottom: 0px;
      margin-top: 0px;
      font-size: 14px;
+     color: white;
 }
  .sb2-12 ul li h5 span {
      display: block;
@@ -5807,9 +5809,9 @@
      display: block;
      font-size: 13.5px;
      padding: 10px 0px;
-     border-bottom: 1px solid #e3e8ea;
+     border-bottom: 1px solid #303b40;
      padding: 12px 20px;
-     background: #ffffff;
+     background: #273244;
 }
  .sb2-13 ul li a:after {
      font-family: FontAwesome;
@@ -5856,13 +5858,14 @@
  .sb2-13 ul li a i {
      margin-right: 8px;
      width: 16px;
+     color: white;
 }
  .sb2-2 {
      float: left;
      width: 80%;
      padding: 40px;
      margin-left: 20%;
-     background: #e3e8ea;
+     background: url(../Dark_background.png)
 }
  .sb2-2-1 {
      background: #fff;
@@ -5942,7 +5945,7 @@
      padding-right: 5px;
 }
  .sb2-2-2 ul li a {
-     color: #495d65;
+     color: white;
      vertical-align: middle;
 }
  .sb2-2-2 ul li a i {
@@ -5966,6 +5969,7 @@
 /*-------------------------------------------------------*/
  .tab-inn {
      padding: 25px;
+     background-color: #172437;
 }
  .tab-posi {
      position: relative;
@@ -6071,7 +6075,7 @@
 }
  .top-user-pro {
      padding: 18px 20px;
-     color: #494b4b;
+     color: white;
      float: right;
 }
  .top-user-pro img {
@@ -6163,7 +6167,7 @@
     /* fallback for old browsers */
      background: -webkit-linear-gradient(to bottom, #e3e6e3, #afbcaf);
     /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to bottom, #e3e6e3, #afbcaf);
+     background: linear-gradient(to bottom, #2a2b33 , #151f31);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
  .split-row {
@@ -6196,7 +6200,7 @@
  .list-enq-name {
      display: block;
      font-weight: 700;
-     color: #263238;
+     color: white;
 }
  .bot-sp-20 {
      margin-bottom: 20px;
