@@ -5,23 +5,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - SistemaSaude</title>
-    <!--CSS E FONTES-->>
+    <!--CSS E FONTES-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animista.css">
-    <!--JAVASCRIPT-->>
+    <!--JAVASCRIPT-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 </head>
 
 <body>
+    <!--CARREGANDO...-->>
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30"><img class="zmdi-hc-spin" src="img/dna.gif" width="90" height="90" alt="Aero"></div>
+            <p>Aguarde...</p>
+        </div>
+    </div>
+
     <!-- INICIO MENU -->
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="#">SistemaSaude</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -267,6 +275,16 @@
         </div>
     </footer>
     <!--FIM RODAPE-->
+
+
+    <!--FINALIZA A TELA DE CARREGAMENTO-->
+    <script>
+        $(function() {
+            setTimeout(function() {
+                $('.page-loader-wrapper').fadeOut();
+            }, 1000);
+        });
+    </script>
 </body>
 
 </html>
