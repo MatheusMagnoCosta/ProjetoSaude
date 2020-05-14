@@ -22,4 +22,4 @@ Luis Belisario - [luisbelisario](https://github.com/luisbelisario)
 
 Allyson Martins - [martcbit](https://github.com/martcbit)
 
-Tao Hansen - [Tao](https://github.com/tao)
+Tao Hansen - [Tao](https://github.com/taohansens)
