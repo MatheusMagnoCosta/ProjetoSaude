@@ -1,2 +1,4 @@
 .DS_Store
 Sistema/.DS_Store
+node_modules
+Sistema/node_modules
