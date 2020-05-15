@@ -1,4 +1,11 @@
-var mysql = require('mysql')
+const knex = require('knex');
+const configuration = require('../knexfile');
+
+const connection = knex(configuration.development);
+
+module.exports = connection; 
+
+/*var mysql = require('mysql')
 
 var connMySql = function () {
     return mysql.createConnection({
@@ -12,3 +19,4 @@ var connMySql = function () {
 module.exports = function () {
     return connMySql
 }
+*/
