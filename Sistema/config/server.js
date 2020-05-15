@@ -1,4 +1,4 @@
-var express = require('express')
+/*var express = require('express')
 // a requisição ao express retorna uma função
 var consign = require('consign')
 
@@ -17,4 +17,5 @@ consign()
     .then('app/models')
     .into(app)
 
-module.exports = app
+module.exports = app;
+*/

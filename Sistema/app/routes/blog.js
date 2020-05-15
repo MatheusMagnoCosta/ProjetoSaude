@@ -1,7 +1,7 @@
-module.exports = function(app) {    
+/*module.exports = function(app) {    
     app.get('/blog', function(req, res) {
         
-        var connection = app.config.dbConnection()
+        //var connection = app.config.dbConnection()
         var postModel = new app.app.models.NoticiasDao(connection)
         
         postModel.getNoticias(function(erro, result){
@@ -9,3 +9,4 @@ module.exports = function(app) {
         })
     })
 }
+*/
