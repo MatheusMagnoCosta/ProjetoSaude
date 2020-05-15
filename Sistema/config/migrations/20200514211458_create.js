@@ -1,7 +1,7 @@
 
 exports.up = function(knex) {
     return knex.schema.createTable('noticias', function(table){
-        table.int('id').primary();
+        table.string('id').primary();
         table.string('titulo').notNullable();
         table.string('noticia').notNullable();
         table.string('autor').notNullable();
