@@ -3,6 +3,7 @@ const cors = require('cors');
 const routes = require('../Sistema/routes');
 
 const app = express();
+app.set('view engine', 'ejs');
 
 app.use(express.json());
 app.use(routes);
