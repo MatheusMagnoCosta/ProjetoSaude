@@ -11,4 +11,4 @@ module.exports = {
         const noticias = await connection('noticias').select('*');
         return response.json(noticias);
     },
-}
+} 
